@@ -29,7 +29,8 @@
 
 ## Calorie Counter
 
-## About this project <a name="about-project"></a>
+### About this project <a name="about-project"></a>
+The aim of this project is to create a Calorie Counter as the final project for the masters course of Python.
 
 ## 🛠 Built With <a name="built-with"></a>
 
