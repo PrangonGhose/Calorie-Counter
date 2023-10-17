@@ -1,18 +1,14 @@
-from calorie_counter import calorie_counter
+from load_data import load_data
 
-def combo_calories_counter(*args):
-  combos = {
-    "Cheesy Combo" : ["Cheese Burger", "Sweet Potatoes", "Lemonade"],
-    "Veggie Combo" : ["Veggie Burger", "Sweet Potatoes", "Iced Tea"],
-    "Vegan Combo" : ["Vegan Burger", "Salad", "Lemonade"],
-  }
+def combo_calories_counter(orders):
+  from calorie_counter import calorie_counter
+  all_combos = load_data("data/combos.json")
+  combos = all_combos['combos']
 
-  total = 0
+  for combo in combos:
+    if orders == combo['name']:
+      combo_meal_list = combo['meals']
 
-  for arg in args:
-    if arg in combos:
-      for item in combos[arg]:
-        total += calorie_counter(item)
-    else:
-      total += calorie_counter(arg)
+  total = calorie_counter(combo_meal_list)
+
   return total
