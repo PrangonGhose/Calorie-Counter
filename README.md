@@ -39,7 +39,10 @@ The aim of this project is to create a Calorie Counter as the final project for 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
+- The program can display a list of items as menu by reading data from a JSON file. As an added advantage, only updating the JSON file can update the menu and entire order taking process in the next run.
+- The user can choose what to order by simply typing the names of the food items available in the order. Invalid or spelling mistakes in an order will be displayed to the user for correction.
+- A valid order will create an `Order` object and will go through a process of calorie and price counting after which total calorie and total price will be displayed to the user.
+- Order will be refused if the total calorie is more than 2000.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,13 +77,15 @@ Clone the repository using [this link](https://github.com/PrangonGhose/Calorie-C
 In the terminal, go to your file directory and run this command.
 
 ```
-$ git clone https://github.com/PrangonGhose/hello-rails-front-end.git
+$ git clone https://github.com/PrangonGhose/Calorie-Counter.git
 ```
 ### Get into development
 
 In the terminal, run these commands to get into development.
 ```
-$ cd Calorie_Counter
+$ cd Calorie-Counter
+
+$ python main.py
 ```
 
 <!-- AUTHORS -->
@@ -90,6 +95,7 @@ $ cd Calorie_Counter
 👤 **Prangon Ghose**
 
 - GitHub: [@PrangonGhose](https://github.com/PrangonGhose)
+- LinkedIn: [Prangon Ghose](https://www.linkedin.com/in/prangon-ghose/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
