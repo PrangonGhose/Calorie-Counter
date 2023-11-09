@@ -43,6 +43,7 @@ The aim of this project is to create a Calorie Counter as the final project for 
 - The user can choose what to order by simply typing the names of the food items available in the order. Invalid or spelling mistakes in an order will be displayed to the user for correction.
 - A valid order will create an `Order` object and will go through a process of calorie and price counting after which total calorie and total price will be displayed to the user.
 - Order will be refused if the total calorie is more than 2000.
+- All orders will be stored in a `JSON` file and the user can visualize the graph easily by running `data_visualization.py`.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
