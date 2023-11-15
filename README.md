@@ -19,7 +19,6 @@
   - [Install](#install)
 - [👥 Authors](#authors)
 - [🤝 Contributing](#contributing)
-- [🔭 Future Features](#future-features)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 
@@ -43,6 +42,8 @@ The aim of this project is to create a Calorie Counter as the final project for 
 - The user can choose what to order by simply typing the names of the food items available in the order. Invalid or spelling mistakes in an order will be displayed to the user for correction.
 - A valid order will create an `Order` object and will go through a process of calorie and price counting after which total calorie and total price will be displayed to the user.
 - Order will be refused if the total calorie is more than 2000.
+- All orders are stored in a `JSON` file and can be visualized using `matplotlib` by running `visualize.py` file. The `all_orders.json` file is initially populated for visualization purpose.
+- Running only the `main.py` drives the whole program to return the desired output.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -54,7 +55,8 @@ To clone the repository in local environment try following steps.
 ### Prerequisites
 
 - [x] A web browser like Google Chrome.
-- [x] A code editor like Visual Studio Code with Git and Python3.
+- [x] A code editor like Visual Studio Code with `Git` and `Python3`.
+- [x] `Matplotlib`
 
 You can check if Git is installed by running the following command in the terminal.
 
@@ -106,13 +108,6 @@ $ python main.py
 Contributions, issues, and feature requests are welcome! Add suggestions by opening new issues.
 
 Feel free to check the [issues page](https://github.com/PrangonGhose/Calorie-Counter/issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- Future Features (optional) -->
-
-## 🔭 Future Features <a name="future features"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
