@@ -1,0 +1,48 @@
+[
+  {
+    "order_id": "0ec177",
+    "order_accepted": true,
+    "order_refused_reason": "",
+    "date": "2023-11-15",
+    "items": [
+      "hamburger"
+    ],
+    "calories": 600,
+    "price": 5
+  },
+  {
+    "order_id": "1ea309",
+    "order_accepted": true,
+    "order_refused_reason": "",
+    "date": "2023-11-15",
+    "items": [
+      "cheese burger",
+      "veggie burger"
+    ],
+    "calories": 1150,
+    "price": 13
+  },
+  {
+    "order_id": "7c072b",
+    "order_accepted": true,
+    "order_refused_reason": "",
+    "date": "2023-11-15",
+    "items": [
+      "vegan combo"
+    ],
+    "calories": 455,
+    "price": 10
+  },
+  {
+    "order_id": "6b9d57",
+    "order_accepted": true,
+    "order_refused_reason": "",
+    "date": "2023-11-15",
+    "items": [
+      "hamburger",
+      "vegan combo"
+    ],
+    "calories": 1055,
+    "price": 15
+  }
+]
