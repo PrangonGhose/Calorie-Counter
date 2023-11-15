@@ -1,12 +1,10 @@
 from load_data import load_data
 
+all_meals = load_data("data/meals.json")
+all_combos = load_data("data/combos.json")
+
 def calorie_counter(orders):
-  from combo_calories_counter import combo_calories_counter
-
-  all_meals = load_data("data/meals.json")
   meals = all_meals['meals']
-
-  all_combos = load_data("data/combos.json")
   combos = all_combos['combos']
 
   total = 0
@@ -20,4 +18,15 @@ def calorie_counter(orders):
       for meal in meals:
         if order == meal['name'] or order == meal['id']:
           total += meal['calories']
+  return total
+
+def combo_calories_counter(orders):
+  combos = all_combos['combos']
+
+  for combo in combos:
+    if orders == combo['name']:
+      combo_meal_list = combo['meals']
+
+  total = calorie_counter(combo_meal_list)
+
   return total
