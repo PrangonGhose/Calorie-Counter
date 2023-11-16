@@ -44,5 +44,28 @@
     ],
     "calories": 1055,
     "price": 15
+  },
+  {
+    "order_id": "47050e",
+    "order_accepted": true,
+    "order_refused_reason": "",
+    "date": "2023-11-16",
+    "items": [
+      "hamburger",
+      "sweet potatoes"
+    ],
+    "calories": 830,
+    "price": 8
+  },
+  {
+    "order_id": "73f281",
+    "order_accepted": true,
+    "order_refused_reason": "",
+    "date": "2023-11-16",
+    "items": [
+      "vegan combo"
+    ],
+    "calories": 455,
+    "price": 10
   }
 ]
